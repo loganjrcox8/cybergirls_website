@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Nectarine;
+    src: url(NectarineDemoRegular-Ea6le.ttf);
+  }
+  @font-face {
+    font-family: DreamMorp;
+    src: url(dreamorp.ttf);
+  }
+  :root{
+    --clr-purp: #553566;
+    --clr-dblu: #5DA6BF;
+    --clr-oran: #FD883D;
+    --clr-brow: #AC663E;
+    --clr-pink: #FFC0CB;
+    --clr-yell: #FDED98;
+    --clr-ltan: #FAEFE6;
+    --clr-lblu: #71C1E8;
+    --clr-dgre: #5B6946;
+  }
+  body{
+    background-color: var(--clr-ltan);
+  }
+  h4{
+    color: var(--clr-dgre);
+    font-family: DreamMorp;
+    font-size: 18.4pt;
+  }
+  h1{
+    color: var(--clr-oran);
+    font-size: 180pt;
+    line-height: 0;
+    font-family: Nectarine;
+    margin-bottom: 50px;
+  }
+  .mainTitle{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  #header{
+    color: var(--clr-dgre);
+    font-family: DreamMorp;
+    font-size: 15pt;
+    margin-bottom: 0;
+  }
+  .header{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+  }
+  .navs{
+    float: left;
+    width: 18%;
+    padding: 10px;
+    border-left: white;
+    text-align: center;
+  }
+  .nav:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #present{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45pt;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .bottom{
+    text-align: center;
+  }
+  .bottom_row{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  .bottom_rows{
+    margin: 50px;
+  }
+  .bottom_rows:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #bottom-title{
+    font-size: 60pt;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
